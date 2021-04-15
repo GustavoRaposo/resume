@@ -38,46 +38,31 @@ export const NavLinks = styled.ul`
         opacity: 0.7;
     }
 
-    span{
-        text-transform: uppercase;
-        padding: 5px;
-        font-size: 12px;
-        color: #dbdbdb;
-        opacity: 0.7;
-    }
-
-    span:hover{
-        opacity: 1;
-        border-bottom: 1px solid #dbdbdb;
-    }
-
     a:hover{
         opacity: 1;
         border-bottom: 1px solid #dbdbdb;
     }
 
     @media (max-width: 768px){
-        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background: rgb(36, 36, 36);
+        position: fixed;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        padding-top: 8vh;
+        transform: ${({open}) => open ? 'translateX(0)' : 'translateX(100%)'};
+        transition: transform 0.3s ease-in-out;
     }
 `;
 
 export const Burger = styled.div`
     display: none;
-    opacity: 0.7;
     cursor: pointer;
-
-    :hover{
-        opacity: 1;
-        border: 2px solid #dbdbdb;
-        border-radius: 50%;
-    }
-
-    div{
-        width: 25px;
-        height: 2px;
-        background-color: #dbdbdb;
-        margin: 5px;
-    };
+    color: #dbdbdb;
 
     @media (max-width: 768px){
         display: block;

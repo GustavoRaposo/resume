@@ -32,29 +32,31 @@ export const Container = styled.div`
 `;
 
 export const Text = styled.div`
-    padding: 5px;
+    display: block;
+    text-align: justify;
+    padding: 20px;
 
     h1{
         color: rgba(240, 100, 60);
         font-size: 2rem;
     }
-    
-
-    span{
-        text-align: justify;
-        text-justify: inherit;
-    }
 
     p{
         text-indent: 3em;
-        max-width: 50vw;
         text-align: justify;
         text-justify: inherit;
     }
 
     @media (max-width: 768px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
         p{
-            max-width: 100vw;
+            max-width: 100%;
+            padding-top: 5vh;
+            padding-bottom: 5vh;
         }
     }
 `;
