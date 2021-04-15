@@ -5,7 +5,7 @@ export const Container = styled.div`
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 5vw;
     
 
@@ -20,6 +20,7 @@ export const Container = styled.div`
 export const Text = styled.div`
     display: block;
     text-align: justify;
+    padding: 20px;
 
 
     h1{
@@ -46,6 +47,7 @@ export const Text = styled.div`
 `;
 
 export const SkillItems = styled.div`
+    padding: 20px;
     @media (max-width: 768px){
         width: 100%;
     }

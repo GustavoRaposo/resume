@@ -5,12 +5,12 @@ export const Container = styled.div`
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 5vw;
 
     img{
-        max-width: 40vw;
-        height: auto;
+        width: 400px;
+        height: 400px;
         border-radius: 50%;
         border: 3px solid rgb(240, 100, 60);
         padding: 3px;
@@ -32,6 +32,7 @@ export const Container = styled.div`
 `;
 
 export const Text = styled.div`
+    padding: 5px;
 
     h1{
         color: rgba(240, 100, 60);
