@@ -16,7 +16,7 @@ function Contact() {
                 <Icon path={mdiGithub} size={1} color={'rgba(240, 100, 60)'} />
                 <span>/GustavoRaposo</span>
             </a>
-            <a href="http://www.wa.me/5541991892409">
+            <a href="http://wa.me/5541991892409">
                 <Icon path={mdiWhatsapp} size={1} color={'rgba(240, 100, 60)'} />
                 <span>+55 41 99189-2409</span>
             </a>
