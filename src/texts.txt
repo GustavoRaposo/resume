@@ -1,0 +1,14 @@
+About{
+    Olá Mundo! Me chamo Gustavo Foroutan Raposo, sou estudante de ciência da computação, músico sem platéia e melhor jogador de Street Fighter da minha rua.
+    Pessoalmente tenho gosto por novos desafios e inovações, sempre que possível procuro conhecer novas tecnologias e novas abordagens para resolver problemas, além de adquirir novas habilidades.
+    Tenho como objetivo adquirir novas oportunidades que me permitam expandir, aprofundar e aplicar meu conhecimento sobre as diversas áreas de atuação de um desenvolvedor.
+}
+
+Skills{
+    Aqui estão algumas linguagens e tecnologias onde eu estudado e praticado no meu cotidiano, estas se apresentam de forma ordenada de acordo com minha experiência, tanto profissional quanto experiência de uso cotidiano, confiança, conhecimento e domínio sobre elas, uma porcentagem alta não indica que possuo domínio avançado sobre tal, mas sim uma maior familiaridade e confiança. As tecnologias apresentadas ao lado são: Java, Android Studio, HTML5, CSS3, Bootstrap, Python, React, C, C++ e por fim Javascript.
+}
+
+Experience{
+    Desenvolvi uma aplicação Android completa, implementada em Java, que integrava uma placa de medição com um dispositivo Android, tablet ou smartphone, a comunicação era feita através de bluetooth low energy (BLE)
+    Resultado: Apliquei conhecimentos adquiridos previamente como programação Java, programação orientada a objetos (POO), noções de arquitetura de projeto, noções de design e experiência ao usuário (UX). Além de ter adquirido conhecimento e experiência na ferramenta Android e hábito de adquirir conhecimento sobre novas ferramentas, tecnologias e resolver problemas de forma independente.
+}
