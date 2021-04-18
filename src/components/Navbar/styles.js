@@ -6,11 +6,12 @@ export const Container = styled.nav`
     top: 0;
     width: 100vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 8vh;
     background: rgb(36, 36, 36);
     scroll-behavior: smooth;
+    padding: 20px;
 `;
 
 export const Logo = styled.div`
