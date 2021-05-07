@@ -8,6 +8,11 @@ export const Container = styled.div`
     justify-content: center;
     padding: 5vw;
 
+    li{
+        display: block;
+        list-style: none;
+        text-align: start;
+    }
     h1{
         color: rgba(240, 100, 60);
         font-size: 2rem;
@@ -23,20 +28,9 @@ export const Container = styled.div`
     p{
         text-align: justify;
     }
-
-    li{
-        list-style: none;
-    }
-
     @media (max-width: 768px){
         display: block;
-        text-align: center;
-
-        h2{
-            text-align: start;
-        }
-
-        
+        text-align: center;        
 
         ul{
             padding-top: 5vh;

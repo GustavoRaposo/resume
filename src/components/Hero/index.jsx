@@ -11,7 +11,7 @@ function Hero(props) {
                     loop={Infinity}
                     wrapper="span"
                     steps={[
-                        '<Estudante/>', 1000,
+                        '<DesenvolvedorMobile/>', 1000,
                         '<DesenvolvedorFront-end/>', 1000,
                         '<DesenvolvedorBack-end/>', 1000,
                         '<DesenvolvedorMobile/>', 1000

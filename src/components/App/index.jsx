@@ -1,11 +1,11 @@
 import React from 'react';
-import Hero from '../Hero'
+import Hero from '../Hero/index'
 import { Container } from './styles.js';
-import Navbar from '../Navbar';
-import About from '../About'
-import Skills from '../Skills'
-import Experience from '../Experience'
-import Contact from '../Contact'
+import Navbar from '../Navbar/index';
+import About from '../About/index';
+import Skills from '../Skills/index';
+import Experience from '../Experience/index';
+import Contact from '../Contact/index';
 
 function App() {
     return (

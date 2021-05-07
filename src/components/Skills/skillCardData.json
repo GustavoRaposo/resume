@@ -1,0 +1,71 @@
+[
+    {
+        "image": "ic_android.png",
+        "text": "<AndroidStudio/>",
+        "alt": "android_img" 
+    },
+    {
+        "image": "ic_java.png",
+        "text": "<Java/>",
+        "alt": "java_img"
+    },
+    {
+        "image": "ic_kotlin.png",
+        "text": "<Kotlin/>",
+        "alt": "kotlin_img"
+    },
+    {
+        "image": "ic_react.png",
+        "text": "<React/>",
+        "alt": "react_img"
+    },
+    {
+        "image": "ic_bootstrap.png",
+        "text": "<Boostrap/>",
+        "alt": "bootstrap_img"
+    },
+    {
+        "image": "ic_html.png",
+        "text": "<HTML/>",
+        "alt": "html_img"
+    },
+    {
+        "image": "ic_css.png",
+        "text": "<CSS/>",
+        "alt": "css_img"
+    },
+    {
+        "image": "ic_javascript.png",
+        "text": "<Javascript/>"
+    },
+    {
+        "image": "ic_python.png",
+        "text": "<Python/>",
+        "alt": "python_img"
+    },
+    {
+        "image": "ic_c.png",
+        "text": "<C/>",
+        "alt": "c_img"
+    },
+    {
+        "image": "ic_cpp.png",
+        "text": "<C++/>",
+        "alt": "cpp_img"
+    },
+    {
+        "image": "ic_mysql.png",
+        "text": "<MySQL/>",
+        "alt": "mysql_img"
+    },
+    {
+        "image": "ic_git.png",
+        "text": "<Git/>",
+        "alt": "git_img"
+    },
+    {
+        "image": "ic_svn.png",
+        "text": "<SVN/>",
+        "alt": "svn_img"
+    }
+]

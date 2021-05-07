@@ -12,6 +12,7 @@ export const Container = styled.nav`
     background: rgb(36, 36, 36);
     scroll-behavior: smooth;
     padding: 20px;
+    z-index: 1;
 `;
 
 export const Logo = styled.div`
