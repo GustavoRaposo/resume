@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,4 +25,5 @@ export const SkillItems = styled.div`
         font-size: 1rem;
         padding: 0;
     }
+
 `;

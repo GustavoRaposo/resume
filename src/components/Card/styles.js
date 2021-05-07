@@ -17,4 +17,15 @@ export const Container = styled.div`
     :hover{
         transform: scale(1.05);
     }
+
+    img{
+        width: 200px;
+        height: auto;
+    }
+
+    @media (max-width: 768px){
+        img{
+            width: 150px;
+        }
+    }
 `;

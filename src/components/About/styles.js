@@ -2,61 +2,59 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     padding: 5vw;
 
-    img{
-        width: 400px;
-        height: 400px;
+    h1{
+        color: rgba(240, 100, 60);
+        font-size: 2rem;
+        padding: 20px;
+    }
+
+    @media (max-width: 768px){
+        align-items: center;
+    }
+`;
+
+export const Content = styled.div`
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .profile_image{
+        width: 25vw;
+        height: auto;
         border-radius: 50%;
         border: 3px solid rgb(240, 100, 60);
         padding: 3px;
     }
 
     @media (max-width: 768px){
-        display: block;
-        text-align: center;
-        height: auto;
-
-        img{
+        flex-direction: column;
+        align-items: center;
+        .profile_image{
             width: 50vw;
-            height: auto;
-            border-radius: 50%;
-            border: 3px solid rgb(240, 100, 60);
-            padding: 3px;
         }
     }
 `;
 
-export const Text = styled.div`
-    display: block;
-    text-align: justify;
-    padding: 20px;
+export const Text = styled.ul`
+    border: 2px solid rgba(240, 100, 60);
+    border-radius: 20px;
 
-    h1{
-        color: rgba(240, 100, 60);
-        font-size: 2rem;
+    h2{
+        font-size: 1.5rem;
+    }
+    small{
+        font-size: 0.75rem;
     }
 
-    p{
-        text-indent: 3em;
-        text-align: justify;
-        text-justify: inherit;
-    }
-
-    @media (max-width: 768px){
+    li{
         display: flex;
-        justify-content: center;
         align-items: center;
-        flex-direction: column;
-
-        p{
-            max-width: 100%;
-            padding-top: 5vh;
-            padding-bottom: 5vh;
-        }
+        margin: 5px;
     }
 `;

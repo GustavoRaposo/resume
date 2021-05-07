@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,6 +12,10 @@ export const Container = styled.div`
         display: block;
         list-style: none;
         text-align: start;
+        border: 2px solid rgba(240, 100, 60);
+        border-radius: 20px;
+        padding: 5px;
+        margin: 5px;
     }
     h1{
         color: rgba(240, 100, 60);
