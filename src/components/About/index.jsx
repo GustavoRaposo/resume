@@ -31,8 +31,8 @@ function About() {
                     <li>
                         <Icon path={mdiBriefcase} size={1} color={"rgb(240, 100, 60)"} />
                         <div>
-                            <p>Desenvolvedor WEB</p>
-                            <p>Desenvolvedor Mobile</p>
+                            <p>Desenvolvedor Mobile Android</p>
+                            <p>Desenvolvedor Front-end</p>
                         </div>
                     </li>
                 </Text>

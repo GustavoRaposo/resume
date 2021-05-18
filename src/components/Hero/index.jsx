@@ -12,9 +12,7 @@ function Hero(props) {
                     wrapper="span"
                     steps={[
                         '<DesenvolvedorMobile/>', 1000,
-                        '<DesenvolvedorFront-end/>', 1000,
-                        '<DesenvolvedorBack-end/>', 1000,
-                        '<DesenvolvedorMobile/>', 1000
+                        '<DesenvolvedorFront-end/>', 1000
                     ]}
                 />
             </Content>

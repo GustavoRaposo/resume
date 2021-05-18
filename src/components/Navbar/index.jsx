@@ -24,8 +24,8 @@ function Navbar() {
             </Logo>
             <NavLinks open={open} onClick={updateMenuState}>
                 <li><a href="#about">sobre</a></li>
-                <li><a href="#skills">conhecimentos</a></li>
                 <li><a href="#experience">experiência</a></li>
+                <li><a href="#skills">conhecimentos</a></li>
                 <li><a href="#contact">contatos</a></li>
             </NavLinks>
             <Burger>

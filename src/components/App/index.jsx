@@ -14,8 +14,8 @@ function App() {
             <Container>
                 <Hero title="&lt;GustavoRaposo/&gt;" />
                 <About />
-                <Skills />
                 <Experience />
+                <Skills />
                 <Contact />
             </Container>
 

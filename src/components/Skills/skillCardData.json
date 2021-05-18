@@ -1,8 +1,8 @@
 [
     {
-        "image": "ic_android.png",
-        "text": "<AndroidStudio/>",
-        "alt": "android_img" 
+        "image": "ic_android_studio.png",
+        "text": "<Android Studio/>",
+        "alt": "android_img"
     },
     {
         "image": "ic_java.png",
@@ -37,26 +37,6 @@
     {
         "image": "ic_javascript.png",
         "text": "<Javascript/>"
-    },
-    {
-        "image": "ic_python.png",
-        "text": "<Python/>",
-        "alt": "python_img"
-    },
-    {
-        "image": "ic_c.png",
-        "text": "<C/>",
-        "alt": "c_img"
-    },
-    {
-        "image": "ic_cpp.png",
-        "text": "<C++/>",
-        "alt": "cpp_img"
-    },
-    {
-        "image": "ic_mysql.png",
-        "text": "<MySQL/>",
-        "alt": "mysql_img"
     },
     {
         "image": "ic_git.png",
